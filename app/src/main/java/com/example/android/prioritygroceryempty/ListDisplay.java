@@ -1,4 +1,4 @@
-package com.example.android.prioritygroceryempty;
+/*package com.example.android.prioritygroceryempty;
 
 
 import android.os.Bundle;
@@ -13,12 +13,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-/**
- * Created by ben on 12/1/17.
- */
 
+
+/*
 public class ListDisplay extends Activity {
-
+/*
     PriorityQueue<Map.Entry<String,Integer>> items = new PriorityQueue<>(1, new DescendingByPriority());
 
     items.offer(new AbstractMap.SimpleEntry<String, Integer>("butter",Integer.valueOf(3)));
@@ -35,3 +34,4 @@ public class ListDisplay extends Activity {
         listView.setAdapter(adapter);
     }
 }
+*/

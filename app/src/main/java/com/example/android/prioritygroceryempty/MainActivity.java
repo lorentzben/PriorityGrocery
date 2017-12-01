@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         storage.offer(new AbstractMap.SimpleEntry<String, Integer>("butter",Integer.valueOf(3)));
         storage.offer(new AbstractMap.SimpleEntry<String, Integer>("beer",Integer.valueOf(5)));
         storage.offer(new AbstractMap.SimpleEntry<String, Integer>("cheese",Integer.valueOf(1)));
+        
         //instantiate a listview
         mListView = (ListView) findViewById(R.id.grocery_list_view);
 
