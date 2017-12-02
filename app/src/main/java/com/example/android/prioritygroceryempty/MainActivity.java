@@ -2,6 +2,7 @@ package com.example.android.prioritygroceryempty;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -28,12 +29,20 @@ public class MainActivity extends AppCompatActivity {
         storage.offer(new AbstractMap.SimpleEntry<String, Integer>("cheese",Integer.valueOf(1)));
 
         ArrayList<Map.Entry<String,Integer>> storageArrList = new ArrayList<>(storage);
-        
+
 
         GroceryAdapter adapter = new GroceryAdapter(this, storageArrList);
 
         ListView listView = (ListView) findViewById(R.id.grocery_list_view);
         listView.setAdapter(adapter);
-
     }
+
+    /*
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        // Do something when a list item is clicked
+    }
+    */
+
+
 }

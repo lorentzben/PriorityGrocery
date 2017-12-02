@@ -1,6 +1,7 @@
 package com.example.android.prioritygroceryempty;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +35,10 @@ public class GroceryAdapter extends ArrayAdapter<Map.Entry<String,Integer>> {
 
         TextView itemName = (TextView) convertView.findViewById(R.id.grocery_item_name);
 
+
+
         itemName.setText(item.getKey());
+
 
         return convertView;
     }
