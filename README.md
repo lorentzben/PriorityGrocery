@@ -10,4 +10,4 @@
 + Ensure that the command line interface application works for all cases and is solid enough to move forward on the android application. Include a while loop to address whether the user wants to add items or if the are ready to shop.
 + Build an android application based off of a template that is available to us. This will be relatively simple interface, containing only a few buttons, a list of items, and a trip total.
 
-[https://github.com/lorentzben/PriorityGrocery/blob/master/app-debug.apk] Link to .apk to test on devices
+[https://github.com/lorentzben/PriorityGrocery/blob/master/app-debug.apk] (Link to .apk to test on devices)
