@@ -32,16 +32,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        /*
-        storage.offer(new AbstractMap.SimpleEntry<String, Integer>("butter",Integer.valueOf(3)));
-        storage.offer(new AbstractMap.SimpleEntry<String, Integer>("beer",Integer.valueOf(5)));
-        storage.offer(new AbstractMap.SimpleEntry<String, Integer>("cheese",Integer.valueOf(1)));
-        prices.put("butter",5.5);
-        prices.put("cheese", 2.22);
-        prices.put("beer",3.54);
-        */
-
         refreshView();
 
     }
@@ -75,8 +65,7 @@ public class MainActivity extends AppCompatActivity {
         String itemName = etName.getText().toString();
         String strInt = etPriority.getText().toString();
         Integer itemPriority;
-        //Integer itemPriority = (Integer) Integer.parseInt(strInt);
-        Double itemPrice; //= Double.parseDouble(etPrice.getText().toString());
+        Double itemPrice;
         if(etName.getText().toString().equals(null)){
             itemName = "";
 
