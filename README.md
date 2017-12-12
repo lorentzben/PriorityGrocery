@@ -9,4 +9,5 @@
 + Build a map that allows us to have keys that are grocery items that have been picked up and allows the user to enter in the cost of the item so that there can be a running total for their shopping trip. At the end of the trip a virtual receipt would be available based on the entries in this map.
 + Ensure that the command line interface application works for all cases and is solid enough to move forward on the android application. Include a while loop to address whether the user wants to add items or if the are ready to shop.
 + Build an android application based off of a template that is available to us. This will be relatively simple interface, containing only a few buttons, a list of items, and a trip total.
-+ (Stretch) If we have time, we will try to set up a system so that you can sync the list across multiple devices using a simple home server. This way families could share one list across several devices and you could add to the list from any android device.
+
+[https://github.com/lorentzben/PriorityGrocery/blob/master/app-debug.apk] Link to .apk to test on devices
